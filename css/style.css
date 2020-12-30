@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap%27');
+/*Body*/
+body{
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 1200px;
+}
+/* NAVBAR*/
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Banner*/
+.banner{
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*1ère section*/
+.Première{
+    display: flex;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.Première img{
+    width: 200px;
+    height: 150px;
+}
+.Première div {
+    padding-left: 120px;
+    padding-right: 100px;
+}
+
+/*Deuxième section*/
+.Deuxième{
+    background-color: rgb(76, 98, 121);
+    color: white;
+    padding-bottom: 50px;
+}
+.top_div{
+    display: flex;
+    padding-left: 180px;
+    padding-top: 50px;
+}
+.top_div div{
+    padding-left: 75px;
+}
+.titre, .icon, .texte, .button{
+    display: flex;
+
+    padding-top: 30px;
+    text-align: center;
+}
+.texte{
+    padding: 60px 60px 0px 60px;
+    justify-content: space-between;
+}
+.button{
+    color: rgb(76, 98, 121);
+    padding: 20px;
+    justify-content: space-around;
+}
+.icon{
+    justify-content: space-around;
+}
+.titre{
+    justify-content: space-around;
+}
+.marge_sud{
+    padding-bottom: 50px;
+}
+
+/*Troisième */
+.troisième{
+    display: flex;
+    padding-left: 180px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.troisième h1{
+    padding-left: 75px;
+}
+/*footer*/
+footer{
+    background-color:rgb(76, 98, 121);
+    
+}
